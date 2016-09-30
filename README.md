@@ -12,11 +12,6 @@
 * Topbar dissappears 'with the flow' of scrolling - if you'll stop scrolling - sticky element will stop it's movement too.
 
 
-
-
-**By default, iCheck doesn't provide any CSS styles for wrapper divs** (if you don't use [skins](http://fronteed.com/iCheck/)).
-
-
 ## Usage
 
 ```sh
@@ -29,7 +24,7 @@ import SmartSticky from 'react-smart-sticky';
 ...
 
 <SmartSticky>
-  <div>Some topbar or whatever you need</div>
+  <div>Some topbar content or whatever you need</div>
 </SmartSticky>
 ```
 
@@ -37,7 +32,7 @@ import SmartSticky from 'react-smart-sticky';
 
 ```js
 <SmartSticky tolerance={50}>
-  <div>Some topbar or whatever you need</div>
+  <div>Some topbar content or whatever you need</div>
 </SmartSticky>
 ```
 
