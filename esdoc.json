@@ -1,9 +1,0 @@
-{
-  "source": "src",
-  "destination": "./examples/dist/api",
-  "plugins": [
-    {
-      "name": "esdoc-es7-plugin"
-    }
-  ]
-}
