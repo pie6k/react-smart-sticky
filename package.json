@@ -1,6 +1,6 @@
 {
   "name": "react-smart-sticky",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SmartSticky is React component for sticky topbar that will hide when scrolling down and show when scrolling up.",
   "main": "lib/index.js",
   "scripts": {
