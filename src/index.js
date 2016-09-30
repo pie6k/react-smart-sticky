@@ -129,11 +129,11 @@ export default class SmartSticky extends Component {
     } = this.props;
     const {stickyPosition} = this.state;
     const style = {
-      position: fixed,
+      position: 'fixed',
       top: -stickyPosition,
       left: 0,
       right: 0,
-      'z-index': 1000
+      zIndex: 1000
     }
 
     return (
