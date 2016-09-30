@@ -1,0 +1,61 @@
+{
+  "name": "react-smart-sticky",
+  "version": "0.1.0",
+  "description": "SmartSticky is React component for sticky topbar that will hide when scrolling down and show when scrolling up.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel ./src -d lib",
+    "gh-pages": "gulp publish:examples",
+    "lint": "eslint src examples/src",
+    "prepublish": "npm run build",
+    "start": "gulp dev",
+    "test": "npm run lint && gulp build --p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luqin/react-icheck"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.38"
+  },
+  "devDependencies": {
+    "babel": "^5.8.38",
+    "babel-core": "^5.8.38",
+    "babel-eslint": "^4.1.1",
+    "babel-plugin-object-assign": "^1.2.1",
+    "bootstrap": "3.3.5",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "2.1.1",
+    "eslint-config-onefe": "0.2.0",
+    "eslint-plugin-react": "^3.11.3",
+    "gulp": "^3.9.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-bootstrap": "^0.30.3",
+    "react-component-tools": "^1.0.2",
+    "react-router": "^2.3.0",
+    "react-router-bootstrap": "^0.22.1",
+    "react-router-loader": "^0.5.4",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1"
+  },
+  "keywords": [
+    "react",
+    "sticky",
+    "react-component",
+    "component",
+    "topbar",
+    "nav",
+    "app-like",
+    "navigation"
+  ]
+}
