@@ -1,8 +1,8 @@
 # React Smart Sticky
 
-![alt tag](https://pietrasiak.github.io/react-smart-sticky/examples/src/animation.gif)
+![alt tag](https://pie6k.github.io/react-smart-sticky/examples/src/animation.gif)
 
-[Online Demo](https://pietrasiak.github.io/react-smart-sticky/examples/dist/)
+[Online Demo](https://pie6k.github.io/react-smart-sticky/examples/dist/)
 
 
 ## Features
